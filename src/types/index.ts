@@ -15,3 +15,8 @@ export interface KeyboardKey {
   state: LetterState;
   width?: number; // For special keys like Enter, Backspace
 }
+export interface DictionaryMessage {
+  title: string;
+  message: string;
+  resolution:string;
+}
